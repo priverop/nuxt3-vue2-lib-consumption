@@ -7,6 +7,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "dependencies": {
+    "@prp-astara/vite-test-lib": "^0.0.2"
+  },
   "devDependencies": {
     "nuxt": "^3.1.1"
   }
