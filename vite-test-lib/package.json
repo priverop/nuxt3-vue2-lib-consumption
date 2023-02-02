@@ -1,30 +1,27 @@
 {
-  "name": "@dcrall/vite-test-lib",
-  "private": false,
-  "version": "0.1.4",
+  "name": "@prp-astara/vite-test-lib",
+  "version": "0.0.1",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
-  "module": "./dist/vite-test-lib.mjs",
-  "main": "./dist/vite-test-lib.umd.js",
+  "main": "./dist/vite-test-lib.mjs",
+  "module": "./dist/vite-test-lib.umd.js",
   "exports": {
     ".": {
       "import": "./dist/vite-test-lib.mjs",
       "require": "./dist/vite-test-lib.umd.js"
     }
   },
-  "license": "UNLICENSED",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^2.7.14"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.0",
-    "vite": "^2.9.0"
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "vite": "^4.0.0"
   }
 }
