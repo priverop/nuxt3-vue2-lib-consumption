@@ -1,5 +1,7 @@
 # Nuxt 3 Library Consumption Test
 
+EDIT: Nuxt 3 is not compatible with Vue 2: https://github.com/nuxt/nuxt/issues/18705
+
 Following with [@dcrall's repository](https://github.com/dcrall/nuxt-lib-consumption) [and discussion](https://github.com/nuxt/nuxt/discussions/16392), I need a clean repository to consume a Vue 2.7 Vite library in Nuxt 3. 
 
 I'm using [Vite's library mode](https://vitejs.dev/guide/build.html#library-mode). 
